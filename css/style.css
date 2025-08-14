@@ -1,0 +1,47 @@
+/* All common CSS should start from here */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+/* All common CSS should end from here */
+
+.header{
+    background-color: #008080;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.menu{
+    text-align: center;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+.menu ul li a{
+    padding: 0 30px;
+    line-height: 100px;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: all linear .5s;
+    font-family: "Vina Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu ul li a:hover{
+    color: #000000;
+}
